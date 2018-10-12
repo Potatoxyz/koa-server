@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "productId": 1,
+    "weight": 72,
+    "Sku": "7&lc75Lh",
+    "time": "1999-11-04 02:35:55",
+    "operator": "郝刚"
+  },
+  {
+    "id": 2,
+    "productId": 2,
+    "weight": 83,
+    "Sku": "yWGyD!Yp",
+    "time": "1971-11-06 04:22:01",
+    "operator": "何芳"
+  },
+  {
+    "id": 3,
+    "productId": 3,
+    "weight": 81,
+    "Sku": "DgJWAjv*",
+    "time": "2017-09-06 23:18:58",
+    "operator": "夏娟"
+  },
+  {
+    "id": 4,
+    "productId": 4,
+    "weight": 89,
+    "Sku": "EmlZmW9Q",
+    "time": "1976-05-03 22:16:35",
+    "operator": "薛娜"
+  },
+  {
+    "id": 5,
+    "productId": 5,
+    "weight": 97,
+    "Sku": "4%S7nkZa",
+    "time": "1970-04-08 03:25:47",
+    "operator": "郭强"
+  },
+  {
+    "id": 6,
+    "productId": 6,
+    "weight": 62,
+    "Sku": "*N75uPi[",
+    "time": "1987-11-19 03:32:56",
+    "operator": "侯磊"
+  },
+  {
+    "id": 7,
+    "productId": 7,
+    "weight": 94,
+    "Sku": "&m6yhe2d",
+    "time": "1996-02-22 14:23:31",
+    "operator": "谢静"
+  },
+  {
+    "id": 8,
+    "productId": 8,
+    "weight": 53,
+    "Sku": "3Dl%D2Ij",
+    "time": "2015-07-09 03:58:08",
+    "operator": "马超"
+  },
+  {
+    "id": 9,
+    "productId": 9,
+    "weight": 71,
+    "Sku": "okt!L2D5",
+    "time": "2006-03-19 19:41:38",
+    "operator": "石娜"
+  },
+  {
+    "id": 10,
+    "productId": 10,
+    "weight": 61,
+    "Sku": "W)j4nXu)",
+    "time": "2013-08-30 10:54:57",
+    "operator": "徐刚"
+  },
+  {
+    "id": 11,
+    "productId": 11,
+    "weight": 43,
+    "Sku": "3iorvyt0",
+    "time": "2012-04-22 00:23:47",
+    "operator": "任伟"
+  },
+  {
+    "id": 12,
+    "productId": 12,
+    "weight": 38,
+    "Sku": "nrJzkU)1",
+    "time": "2014-05-23 05:31:18",
+    "operator": "邓刚"
+  },
+  {
+    "id": 13,
+    "productId": 13,
+    "weight": 26,
+    "Sku": "ZFow6UDd",
+    "time": "2011-05-22 14:55:14",
+    "operator": "马秀兰"
+  },
+  {
+    "id": 14,
+    "productId": 14,
+    "weight": 58,
+    "Sku": "7XcA%RT7",
+    "time": "2011-09-17 04:51:03",
+    "operator": "谭强"
+  },
+  {
+    "id": 15,
+    "productId": 15,
+    "weight": 41,
+    "Sku": "[u$7eD1!",
+    "time": "2016-09-10 14:59:26",
+    "operator": "何秀英"
+  },
+  {
+    "id": 16,
+    "productId": 16,
+    "weight": 75,
+    "Sku": "RSoD#AV*",
+    "time": "2014-01-26 04:16:15",
+    "operator": "徐桂英"
+  },
+  {
+    "id": 17,
+    "productId": 17,
+    "weight": 33,
+    "Sku": "k2EIpSPz",
+    "time": "2006-09-04 00:23:55",
+    "operator": "梁伟"
+  },
+  {
+    "id": 18,
+    "productId": 18,
+    "weight": 46,
+    "Sku": "S6xW[Jg@",
+    "time": "1986-09-25 12:46:18",
+    "operator": "段艳"
+  },
+  {
+    "id": 19,
+    "productId": 19,
+    "weight": 36,
+    "Sku": "(XY[y1H7",
+    "time": "1994-01-15 01:19:26",
+    "operator": "郝刚"
+  },
+  {
+    "id": 20,
+    "productId": 20,
+    "weight": 83,
+    "Sku": "(sbKJC%i",
+    "time": "1986-10-14 23:41:33",
+    "operator": "侯洋"
+  }
+]

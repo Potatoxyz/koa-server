@@ -1,0 +1,20 @@
+{{extend '../layout.html'}}
+
+{{block 'title'}}{{title}}{{/block}}
+
+{{block 'head'}}
+
+{{/block}}
+
+{{block 'content'}}
+<form class="pure-form" id="uploadForm">
+    <fieldset>
+        <legend>上传文件</legend>
+        <input type="file" placeholder="请选择文件...">
+        <button type="submit" class="pure-button pure-button-primary">上传</button>
+    </fieldset>
+</form>
+<script>
+
+</script>
+{{/block}}

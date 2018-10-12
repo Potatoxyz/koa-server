@@ -1,0 +1,25 @@
+{
+  "name": "koa-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^10.11.7",
+    "art-template": "^4.13.1",
+    "koa": "^2.5.3",
+    "koa-art-template": "^1.1.1",
+    "koa-body": "^4.0.4",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.1.4",
+    "mockjs": "^1.0.1-beta3",
+    "puppeteer-core": "^1.9.0"
+  }
+}

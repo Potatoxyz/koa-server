@@ -10,11 +10,24 @@
 <form class="pure-form" id="uploadForm">
     <fieldset>
         <legend>上传文件</legend>
-        <input type="file" placeholder="请选择文件...">
-        <button type="submit" class="pure-button pure-button-primary">上传</button>
+        <input type="file" name="file" placeholder="请选择文件..." id="file">
+        <button type="submit" class="pure-button pure-button-primary" id="upload">上传</button>
     </fieldset>
 </form>
 <script>
-
+    $(function () {
+        var uploadAction=function (e) {
+            e.preventDefault();
+            var data=new FormData();
+            data.append('abc',$('#file')[0].files[0]);
+            $.ajax('http://localhost:3000/api/upload',{
+                data:data,
+                processData:false,
+                contentType:false,
+                type:'POST'
+            })
+        };
+        $('#upload').on('click',uploadAction);
+    })
 </script>
 {{/block}}

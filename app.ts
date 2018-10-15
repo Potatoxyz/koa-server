@@ -1,6 +1,6 @@
 import * as  Koa from 'koa';
 import * as logger from 'koa-logger';
-import * as koaBody from 'koa-body';
+
 import * as koaStatic from 'koa-static';
 import * as path from 'path';
 import router from './router';
@@ -15,8 +15,9 @@ render(app, {
 
 app.use(logger());
 app.use(router.routes());
+app.use(router.allowedMethods());
 app.use(koaStatic(__dirname+'/views'));
 app.use(koaStatic(__dirname+'/public'));
-app.use(koaBody({multipart:true}));
+
 app.listen(3000);
 console.log('app start on port 3000');

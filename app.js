@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var Koa = require("koa");
 var logger = require("koa-logger");
-var koaBody = require("koa-body");
 var koaStatic = require("koa-static");
 var path = require("path");
 var router_1 = require("./router");
@@ -15,8 +14,8 @@ render(app, {
 });
 app.use(logger());
 app.use(router_1.default.routes());
+app.use(router_1.default.allowedMethods());
 app.use(koaStatic(__dirname + '/views'));
 app.use(koaStatic(__dirname + '/public'));
-app.use(koaBody({ multipart: true }));
 app.listen(3000);
 console.log('app start on port 3000');

@@ -1,5 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 var Router = require("koa-router");
 var router_api_1 = require("./router-api");
 var router_views_1 = require("./router-views");
@@ -12,4 +12,4 @@ router.use('/api/product', router_api_1.productApi.routes());
 router.use('/api/upload', router_api_1.uploadApi.routes());
 //views router config
 router.use('/views/upload', router_views_1.uploadView.routes());
-exports.default = router;
+exports["default"] = router;

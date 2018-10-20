@@ -1,10 +1,10 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var node_xlsx_1 = require("node-xlsx");
 var path = require('path');
-var _ = require('../public/underscore.min.js');
+var _ = require('underscore/underscore.js');
 var filepath = path.resolve(__dirname, '../public/test.xls');
-var workSheetsFromFile = node_xlsx_1["default"].parse(filepath);
+var workSheetsFromFile = node_xlsx_1.default.parse(filepath);
 console.log(workSheetsFromFile);
 var Sheet1 = workSheetsFromFile[0];
 Sheet1.data.forEach(function (value) {

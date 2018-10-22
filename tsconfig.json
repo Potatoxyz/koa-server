@@ -3,8 +3,8 @@
     "module": "commonjs",
     "target": "es5",
     "sourceMap": false,
-    "types": ["node"],
-    "lib":["ES2015"]
+    "types": ["node","jquery"],
+    "lib":["ES2015","dom"]
   },
   "exclude": [
     "node_modules"

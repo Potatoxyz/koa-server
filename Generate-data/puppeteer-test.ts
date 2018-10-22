@@ -1,5 +1,5 @@
-const puppeteer = require('puppeteer-core');
-const path='D:\\Program Files (x86)\\chrome-win\\chrome-win\\chrome.exe';
+var puppeteer = require('puppeteer-core');
+var path='D:\\Program Files (x86)\\chrome-win\\chrome-win\\chrome.exe';
 (async () => {
     const browser = await puppeteer.launch(
         {executablePath:path}

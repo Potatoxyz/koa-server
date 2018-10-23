@@ -1,7 +1,8 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var prefix = 'http://localhost:3000/api';
-exports["default"] = {
+exports.default = {
     'product': prefix + "/product",
-    'upload': prefix + "/upload"
+    'upload': prefix + "/upload",
+    'saiheSync': prefix + "/saiheSync",
 };

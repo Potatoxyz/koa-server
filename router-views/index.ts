@@ -1,2 +1,3 @@
 import  uploadView from './view.upload';
-export {uploadView}
+import  transportView from './view.transport';
+export {uploadView,transportView}

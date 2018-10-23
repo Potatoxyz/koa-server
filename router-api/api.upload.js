@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var Router = require("koa-router");
 var path = require("path");
 var fs = require("fs");
@@ -24,4 +24,4 @@ router.post('/', koaBody({ multipart: true }), function (ctx, next) {
     }
     ctx.body = filesArr;
 });
-exports["default"] = router;
+exports.default = router;

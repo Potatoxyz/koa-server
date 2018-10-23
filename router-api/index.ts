@@ -1,3 +1,4 @@
 import productApi from './api.product';
 import uploadApi from './api.upload';
-export {productApi,uploadApi}
+import transportApi from './api.saiheSync';
+export {productApi,uploadApi,transportApi}

@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./app.js",
     "puppeteer-test": "node ./puppeteer/test.js",
-    "puppeteer": "node ./Generate-data/baidu-search-point.js"
+    "puppeteer-point": "node ./puppeteer/baidu-search-point.js",
+    "puppeteer-saihe": "node ./puppeteer/search-saihe-logistics.js"
   },
   "author": "",
   "license": "ISC",

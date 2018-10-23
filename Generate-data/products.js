@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var Mock = require("mockjs");
 var fs = require("fs");
 var path = require("path");
@@ -16,7 +16,7 @@ var products = Mock.mock({
             'time': function () { return Random.datetime('yyyy-MM-dd HH:mm:ss'); },
             'operator': function () { return Random.cname(); }
         }
-    ]
+    ],
 });
 var createFile = function (data) {
     return new Promise(function (resolve, reject) {

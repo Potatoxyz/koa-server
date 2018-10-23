@@ -1,7 +1,7 @@
-const puppeteer = require('puppeteer-core');
-const path = 'D:\\Program Files (x86)\\chrome-win\\chrome-win\\chrome.exe';
+var puppeteer = require('puppeteer-core');
+var path = 'D:\\Program Files (x86)\\chrome-win\\chrome-win\\chrome.exe';
 //判断新页面跳转完成参数
-const checkNavigatedDone = {
+var checkNavigatedDone = {
     waitUntil: ['networkidle0']
 };
 (async () => {
@@ -21,18 +21,9 @@ const checkNavigatedDone = {
             console.log(`${i}: ${msg.args()[i]}`); // 译者注：这句话的效果是打印到你的代码的控制台
     });
     await page.goto('http://localhost:4500', checkNavigatedDone);
+
     await page.evaluate(() => {
-        let loginButton = $('div.auth-main a.btn');
-        $(loginButton).click(() => {
-            console.log('?');
-            setTimeout(()=>{
-                console.log($('form .login-body input[formcontrolname="workerNo"]')[0])
-                $('form .login-body input[formcontrolname="workerNo"]')[0].focus();
-            },1000)
-        });
-        $(loginButton)[0].click();
+       window.localStorage.setItem('jwtToken',"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjMsIlRpbWUiOjE1NDAxNzQ5NDZ9.qBKuK-MghBkXHw4IVeOX8QkcbwdUHqqLGW2bBmrQXcI")
+        window.location.href="http://localhost:4500/#/pages/home";
     });
-    // await page.$('div.auth-main a.btn').then(ctx=>{console.log(ctx)});
-    // await page.$('form .login-body input[formcontrolname="workerNo"]');
-    // await page.$('form .login-body input[formcontrolname="password"]');
 })();

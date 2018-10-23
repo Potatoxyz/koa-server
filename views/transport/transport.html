@@ -1,0 +1,57 @@
+{{extend '../layout.html'}}
+
+{{block 'title'}}{{title}}{{/block}}
+
+{{block 'head'}}
+
+{{/block}}
+
+{{block 'content'}}
+<div class="container">
+    <table class="table table-bordered table-stripped">
+        <thead>
+        <tr>
+            <th>序号</th>
+            <th>物流Id</th>
+            <th>物流名称</th>
+            <th>渠道代码</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{each transportDatas}}
+        <tr>
+            <td>{{$index+1}}</td>
+            <td>{{$value.transportId}}</td>
+            <td>{{$value.transportName}}</td>
+            <td>{{$value.transportCode}}</td>
+            <td>
+                <button class="btn btn-primary">同步</button>
+            </td>
+        </tr>
+        {{/each}}
+        </tbody>
+    </table>
+</div>
+<script>
+    $(function () {
+        var doSync=function (e) {
+            var transportId=$(e.currentTarget).parent("td").siblings('td:nth-of-type(2)').text();
+            console.log(transportId)
+            $.ajax('http://localhost:3000/api/saiheSync',
+                {
+                    type:"POST",
+                    data:{transportId:transportId},
+                    success:function (res) {
+                        console.log(res)
+                    },
+                    error:function (res) {
+                        console.log(res)
+                    },
+                }
+            )
+        };
+        $('.btn').on('click',doSync);
+    })
+</script>
+{{/block}}

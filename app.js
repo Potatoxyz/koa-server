@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var Koa = require("koa");
 var logger = require("koa-logger");
 var koaStatic = require("koa-static");
@@ -13,8 +13,8 @@ render(app, {
     debug: process.env.NODE_ENV !== 'production'
 });
 app.use(logger());
-app.use(router_1["default"].routes());
-app.use(router_1["default"].allowedMethods());
+app.use(router_1.default.routes());
+app.use(router_1.default.allowedMethods());
 app.use(koaStatic(__dirname + '/views'));
 app.use(koaStatic(__dirname + '/public'));
 app.listen(3000);

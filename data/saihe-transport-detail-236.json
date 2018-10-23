@@ -1,0 +1,582 @@
+[
+  {
+    "areaName": "2018年中邮2组",
+    "countries": "朝鲜"
+  },
+  {
+    "areaName": "2018年中邮4组",
+    "countries": "苏丹"
+  },
+  {
+    "areaName": "2018年中邮6组",
+    "countries": "菲律宾"
+  },
+  {
+    "areaName": "2018年中邮7组",
+    "countries": "印度,印度尼西亚()"
+  },
+  {
+    "areaName": "2018年中邮8组",
+    "countries": "马尔代夫"
+  },
+  {
+    "areaName": "2018年中邮9组",
+    "countries": "柬埔寨"
+  },
+  {
+    "areaName": "2018年中邮10组",
+    "countries": "日本"
+  },
+  {
+    "areaName": "2018年中邮11组",
+    "countries": "奥地利"
+  },
+  {
+    "areaName": "2018年中邮12组",
+    "countries": "斯里兰卡"
+  },
+  {
+    "areaName": "2018年中邮13组",
+    "countries": "老挝"
+  },
+  {
+    "areaName": "2018年中邮14组",
+    "countries": "孟加拉国,缅甸"
+  },
+  {
+    "areaName": "2018年中邮16组",
+    "countries": "尼泊尔"
+  },
+  {
+    "areaName": "2018年中邮17组",
+    "countries": "文莱"
+  },
+  {
+    "areaName": "2018年中邮18组",
+    "countries": "印度"
+  },
+  {
+    "areaName": "2018年中邮19组",
+    "countries": "泰国"
+  },
+  {
+    "areaName": "2018年中邮20组",
+    "countries": "新加坡"
+  },
+  {
+    "areaName": "2018年中邮21组",
+    "countries": "瑞士"
+  },
+  {
+    "areaName": "2018年中邮22组",
+    "countries": "蒙古"
+  },
+  {
+    "areaName": "2018年中邮23组",
+    "countries": "斯洛伐克"
+  },
+  {
+    "areaName": "2018年中邮24组",
+    "countries": "芬兰"
+  },
+  {
+    "areaName": "2018年中邮25组",
+    "countries": "捷克"
+  },
+  {
+    "areaName": "2018年中邮26组",
+    "countries": "埃及"
+  },
+  {
+    "areaName": "2018年中邮27组",
+    "countries": "约旦"
+  },
+  {
+    "areaName": "2018年中邮28组",
+    "countries": "伊拉克"
+  },
+  {
+    "areaName": "2018年中邮29组",
+    "countries": "安哥拉,乌干达"
+  },
+  {
+    "areaName": "2018中邮31组",
+    "countries": "乍得"
+  },
+  {
+    "areaName": "2018中邮32组",
+    "countries": "巴基斯坦"
+  },
+  {
+    "areaName": "2018中邮33组",
+    "countries": "土库曼斯坦,塔吉克斯坦"
+  },
+  {
+    "areaName": "2018中邮35组",
+    "countries": "赞比亚"
+  },
+  {
+    "areaName": "2018中邮36组",
+    "countries": "澳大利亚"
+  },
+  {
+    "areaName": "2018中邮37组",
+    "countries": "瑞典"
+  },
+  {
+    "areaName": "2018中邮39组",
+    "countries": "以色列"
+  },
+  {
+    "areaName": "2018中邮40组",
+    "countries": "波兰"
+  },
+  {
+    "areaName": "2018中邮41组",
+    "countries": "阿尔巴尼亚"
+  },
+  {
+    "areaName": "2018中邮42组",
+    "countries": "英国"
+  },
+  {
+    "areaName": "2018中邮43组",
+    "countries": "比利时"
+  },
+  {
+    "areaName": "2018中邮44组",
+    "countries": "韩国"
+  },
+  {
+    "areaName": "2018中邮45组",
+    "countries": "丹麦"
+  },
+  {
+    "areaName": "2018中邮46组",
+    "countries": "摩尔多瓦"
+  },
+  {
+    "areaName": "2018中邮47组",
+    "countries": "科威特"
+  },
+  {
+    "areaName": "2018中邮48组",
+    "countries": "白俄罗斯"
+  },
+  {
+    "areaName": "2018中邮49组",
+    "countries": "肯尼亚"
+  },
+  {
+    "areaName": "2018中邮50组",
+    "countries": "吉尔吉斯斯坦"
+  },
+  {
+    "areaName": "2018中邮51组",
+    "countries": "意大利"
+  },
+  {
+    "areaName": "2018中邮52组",
+    "countries": "坦桑尼亚"
+  },
+  {
+    "areaName": "2018中邮53组",
+    "countries": "西班牙"
+  },
+  {
+    "areaName": "2018中邮54组",
+    "countries": "新西兰"
+  },
+  {
+    "areaName": "2018中邮55组",
+    "countries": "荷兰"
+  },
+  {
+    "areaName": "2018中邮56组",
+    "countries": "德国"
+  },
+  {
+    "areaName": "2018中邮57组",
+    "countries": "马来西亚()"
+  },
+  {
+    "areaName": "2018中邮58组",
+    "countries": "加拿大"
+  },
+  {
+    "areaName": "2018中邮59组",
+    "countries": "阿塞拜疆"
+  },
+  {
+    "areaName": "2018中邮60组",
+    "countries": "乌克兰"
+  },
+  {
+    "areaName": "2018中邮61组",
+    "countries": "法国"
+  },
+  {
+    "areaName": "2018中邮62组",
+    "countries": "格鲁吉亚,乌兹别克斯坦"
+  },
+  {
+    "areaName": "2018中邮64组",
+    "countries": "阿尔及利亚"
+  },
+  {
+    "areaName": "2018中邮65组",
+    "countries": "塞舌尔"
+  },
+  {
+    "areaName": "2018中邮66组",
+    "countries": "匈牙利"
+  },
+  {
+    "areaName": "2018中邮67组",
+    "countries": "马耳他"
+  },
+  {
+    "areaName": "2018中邮68组",
+    "countries": "越南"
+  },
+  {
+    "areaName": "2018中邮70组",
+    "countries": "博茨瓦纳"
+  },
+  {
+    "areaName": "2018中邮71组",
+    "countries": "巴拿马,卡塔尔"
+  },
+  {
+    "areaName": "2018中邮73组",
+    "countries": "汤加,所罗门群岛"
+  },
+  {
+    "areaName": "2018中邮74组",
+    "countries": "古巴"
+  },
+  {
+    "areaName": "2018中邮75组",
+    "countries": "津巴布韦"
+  },
+  {
+    "areaName": "2018中邮76组",
+    "countries": "亚美尼亚,摩洛哥"
+  },
+  {
+    "areaName": "2018中邮77组",
+    "countries": "厄瓜多尔"
+  },
+  {
+    "areaName": "2018中邮78组",
+    "countries": "美国"
+  },
+  {
+    "areaName": "2018中邮79组",
+    "countries": "塞浦路斯"
+  },
+  {
+    "areaName": "2018中邮80组",
+    "countries": "巴林"
+  },
+  {
+    "areaName": "2018中邮81组",
+    "countries": "莫桑比克"
+  },
+  {
+    "areaName": "2018中邮82组",
+    "countries": "希腊"
+  },
+  {
+    "areaName": "2018中邮83组",
+    "countries": "马绍尔群岛,图瓦卢,瓦努阿图,不丹,基里巴斯"
+  },
+  {
+    "areaName": "2018中邮84组",
+    "countries": "克罗地亚"
+  },
+  {
+    "areaName": "2018中邮85组",
+    "countries": "南非"
+  },
+  {
+    "areaName": "2018中邮86组",
+    "countries": "沙特阿拉伯"
+  },
+  {
+    "areaName": "2018中邮87组",
+    "countries": "卢森堡"
+  },
+  {
+    "areaName": "2018中邮88组",
+    "countries": "斯洛文尼亚"
+  },
+  {
+    "areaName": "2018中邮89组",
+    "countries": "保加利亚"
+  },
+  {
+    "areaName": "2018中邮90组",
+    "countries": "阿尔及利亚"
+  },
+  {
+    "areaName": "2018中邮91组",
+    "countries": "土耳其"
+  },
+  {
+    "areaName": "2018中邮92组",
+    "countries": "伊朗"
+  },
+  {
+    "areaName": "2018中邮93组",
+    "countries": "利比里亚,突尼斯"
+  },
+  {
+    "areaName": "2018中邮94组",
+    "countries": "哥伦比亚"
+  },
+  {
+    "areaName": "2018中邮95组",
+    "countries": "爱尔兰"
+  },
+  {
+    "areaName": "2018中邮96组",
+    "countries": "埃塞俄比亚"
+  },
+  {
+    "areaName": "2018中邮97组",
+    "countries": "危地马拉,多米尼加,梵蒂冈"
+  },
+  {
+    "areaName": "2018中邮98组",
+    "countries": "加纳"
+  },
+  {
+    "areaName": "2018中邮99组",
+    "countries": "秘鲁"
+  },
+  {
+    "areaName": "2018中邮100组",
+    "countries": "卢旺达,塞内加尔,多哥,布基纳法索"
+  },
+  {
+    "areaName": "2018中邮101组",
+    "countries": "尼日利亚"
+  },
+  {
+    "areaName": "2018中邮102组",
+    "countries": "科特迪瓦"
+  },
+  {
+    "areaName": "2018中邮103组",
+    "countries": "安道尔,萨尔瓦多,几内亚,洪都拉斯,巴拉圭,法罗群岛"
+  },
+  {
+    "areaName": "2018中邮104组",
+    "countries": "吉布提,马里"
+  },
+  {
+    "areaName": "2018中邮105组",
+    "countries": "贝宁"
+  },
+  {
+    "areaName": "2018中邮106组",
+    "countries": "特立尼达和多巴哥"
+  },
+  {
+    "areaName": "2018中邮107组",
+    "countries": "阿富汗,伯利兹,英属维尔京群岛,科摩罗,多米尼克,厄立特里亚,福克兰群岛（马尔维纳斯）,法属波利尼西亚,圭亚那,南马其顿,马拉维,尼加拉瓜,圣多美和普林西比,索马里,斯威士兰,美属萨摩亚,波黑,布隆迪,佛得角,中非,刚果（金）,赤道几内亚,法属圭亚那,海地,莱索托,利比亚,马达加斯加,马提尼克,尼日尔,波多黎各,圣赫勒拿,冈比亚,美属维尔京群岛,西撒哈拉,巴勒斯坦,阿森松岛,法属波利尼西亚"
+  },
+  {
+    "areaName": "2018中邮108组",
+    "countries": "墨西哥"
+  },
+  {
+    "areaName": "2018中邮109组",
+    "countries": "斐济"
+  },
+  {
+    "areaName": "2018中邮110组",
+    "countries": "智利"
+  },
+  {
+    "areaName": "2018中邮111组",
+    "countries": "冰岛"
+  },
+  {
+    "areaName": "2018中邮112组",
+    "countries": "摩纳哥"
+  },
+  {
+    "areaName": "2018中邮113组",
+    "countries": "阿曼"
+  },
+  {
+    "areaName": "2018中邮114组",
+    "countries": "罗马尼亚"
+  },
+  {
+    "areaName": "2018中邮115组",
+    "countries": "委内瑞拉"
+  },
+  {
+    "areaName": "2018中邮116组",
+    "countries": "毛里求斯"
+  },
+  {
+    "areaName": "2018中邮117组",
+    "countries": "立陶宛"
+  },
+  {
+    "areaName": "2018中邮118组",
+    "countries": "葡萄牙"
+  },
+  {
+    "areaName": "2018中邮119组",
+    "countries": "巴西"
+  },
+  {
+    "areaName": "2018中邮120组",
+    "countries": "乌拉圭,塞尔维亚共和国"
+  },
+  {
+    "areaName": "2018中邮122组",
+    "countries": "俄罗斯"
+  },
+  {
+    "areaName": "2018中邮123组",
+    "countries": "列支敦士登"
+  },
+  {
+    "areaName": "2018中邮124组",
+    "countries": "巴布亚新几内亚"
+  },
+  {
+    "areaName": "2018中邮125组",
+    "countries": "拉脱维亚"
+  },
+  {
+    "areaName": "2018中邮126组",
+    "countries": "牙买加"
+  },
+  {
+    "areaName": "2018中邮127组",
+    "countries": "爱沙尼亚"
+  },
+  {
+    "areaName": "2018中邮128组",
+    "countries": "圣诞岛"
+  },
+  {
+    "areaName": "2018中邮130组",
+    "countries": "黎巴嫩"
+  },
+  {
+    "areaName": "2018中邮131组",
+    "countries": "诺福克岛"
+  },
+  {
+    "areaName": "2018中邮132组",
+    "countries": "巴巴多斯"
+  },
+  {
+    "areaName": "2018中邮133组",
+    "countries": "阿根廷"
+  },
+  {
+    "areaName": "2018中邮134组",
+    "countries": "哥斯达黎加"
+  },
+  {
+    "areaName": "2018中邮135组",
+    "countries": "巴哈马,圣卢西亚,特克斯和凯科斯群岛"
+  },
+  {
+    "areaName": "2018中邮136组",
+    "countries": "直布罗陀"
+  },
+  {
+    "areaName": "2018中邮137组",
+    "countries": "新喀里多尼亚,阿拉伯联合酋长国"
+  },
+  {
+    "areaName": "2018中邮138组",
+    "countries": "开曼群岛"
+  },
+  {
+    "areaName": "2018中邮139组",
+    "countries": "安提瓜和巴布达"
+  },
+  {
+    "areaName": "2018中邮140组",
+    "countries": "加蓬,瑙鲁,苏里南,格林纳达,圣马力诺"
+  },
+  {
+    "areaName": "2018中邮145组",
+    "countries": "挪威"
+  },
+  {
+    "areaName": "2018中邮146组",
+    "countries": "瑞士"
+  },
+  {
+    "areaName": "2018中邮147组",
+    "countries": "日本"
+  },
+  {
+    "areaName": "2018中邮148组",
+    "countries": "波兰"
+  },
+  {
+    "areaName": "2018中邮149组",
+    "countries": "智利"
+  },
+  {
+    "areaName": "2018中邮150组",
+    "countries": "比利时"
+  },
+  {
+    "areaName": "2018中邮141组",
+    "countries": "毛里塔尼亚"
+  },
+  {
+    "areaName": "2018中邮142组",
+    "countries": "哈萨克斯坦"
+  },
+  {
+    "areaName": "2018中邮143",
+    "countries": "瓜德罗普"
+  },
+  {
+    "areaName": "2018中邮144",
+    "countries": "留尼汪"
+  },
+  {
+    "areaName": "2018中邮151组",
+    "countries": "墨西哥"
+  },
+  {
+    "areaName": "2018中邮152组",
+    "countries": "丹麦"
+  },
+  {
+    "areaName": "2018中邮153组",
+    "countries": "土耳其"
+  },
+  {
+    "areaName": "2018中邮154组",
+    "countries": "匈牙利"
+  },
+  {
+    "areaName": "2018中邮155组",
+    "countries": "新西兰"
+  },
+  {
+    "areaName": "2018中邮156组",
+    "countries": "乌克兰"
+  },
+  {
+    "areaName": "2018中邮157组",
+    "countries": "白俄罗斯"
+  }
+]

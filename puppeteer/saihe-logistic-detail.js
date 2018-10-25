@@ -41,54 +41,106 @@ var puppeteer = require('puppeteer-core');
 var static_1 = require("../static");
 var Util_1 = require("../Util/Util");
 var _ = require("underscore");
-var public_handle_1 = require("./public-handle");
 var targetPath1 = "http://demate.irobotbox.com/IrobotBox/Delivery/TransportEditv3.aspx?TransportID=";
+var targetPath2 = "http://demate.irobotbox.com/IrobotBox/Delivery/TransportFeeEditV2.aspx";
 var browserSetting = {
     executablePath: static_1.exePath,
-    headless: false
+    headless: true
 };
 var transportDetail = function (transportId) { return __awaiter(_this, void 0, void 0, function () {
-    var browser, page, result;
-    return __generator(this, function (_a) {
-        switch (_a.label) {
+    var browser, page, result, page1, i, _a, _b;
+    return __generator(this, function (_c) {
+        switch (_c.label) {
             case 0:
                 if (!_.isNumber(transportId)) {
                     return [2 /*return*/, Promise.reject('transportId 为空')];
                 }
                 return [4 /*yield*/, puppeteer.launch(browserSetting)];
             case 1:
-                browser = _a.sent();
+                browser = _c.sent();
                 return [4 /*yield*/, browser.newPage()];
             case 2:
-                page = _a.sent();
-                public_handle_1["default"].onError.call(this, page);
+                page = _c.sent();
                 return [4 /*yield*/, page.setViewport(static_1.viewPort)];
             case 3:
-                _a.sent();
+                _c.sent();
                 return [4 /*yield*/, page.setUserAgent(static_1.userAgent)];
             case 4:
-                _a.sent();
+                _c.sent();
                 return [4 /*yield*/, UPuppeteer_1.addCookies(static_1.saiheCookie, page, '.irobotbox.com')];
             case 5:
-                _a.sent();
-                return [4 /*yield*/, page.goto(targetPath1 + transportId)];
+                _c.sent();
+                return [4 /*yield*/, page.goto(targetPath1 + transportId)["catch"](function (e) {
+                        page.close();
+                        console.log(e);
+                    })];
             case 6:
-                _a.sent();
+                _c.sent();
                 return [4 /*yield*/, page.evaluate(function () {
                         var result = [];
                         $('#tbodyarea tr').each(function (index, value) {
+                            var suplid = $("#tdtransname").attr("val"); //物流id
+                            var chktsid = $("#tbodyarea tr").eq(index).find("input[type='checkbox']").val(); //区域国家id
                             var areaName = ($(value).children("td:nth-of-type(2)").text()).replace(/\s|\r|\n+/g, "");
                             var countries = ($(value).children("td:nth-of-type(3)").text()).replace(/\s|\r|\n+/g, "");
-                            result.push({ areaName: areaName, countries: countries });
+                            result.push({ chktsid: chktsid, areaName: areaName, countries: countries, suplid: suplid });
                         });
                         return result;
                     })];
             case 7:
-                result = _a.sent();
-                Util_1.createFile(result, "saihe-transport-detail-" + transportId + ".json");
-                return [4 /*yield*/, page.close()];
+                result = _c.sent();
+                return [4 /*yield*/, browser.newPage()];
             case 8:
-                _a.sent();
+                page1 = _c.sent();
+                i = 0;
+                _c.label = 9;
+            case 9:
+                if (!(i < result.length)) return [3 /*break*/, 13];
+                result[i]['transportId'] = transportId;
+                return [4 /*yield*/, page1.goto(targetPath2 + "?id=" + result[i].chktsid + "&suplid=" + result[i].suplid + "&transid=" + transportId)["catch"](function (e) {
+                        page1.close();
+                        console.log(e);
+                    })];
+            case 10:
+                _c.sent();
+                _a = result[i];
+                _b = 'priceDetail';
+                return [4 /*yield*/, page1.evaluate(function () {
+                        var priceCount = $("#TableSapce table tbody tr").length - 2;
+                        var priceResult = [];
+                        if (priceCount) {
+                            for (var j = 0; j < priceCount; j++) {
+                                var o = j + 1;
+                                var MinWeight = "#MinWeight" + o; //最小重量
+                                var MaxWeight = "#MaxWeight" + o; //最大重量
+                                var Pirce = "#Pirce" + o; //一口价
+                                var UnitPirce = "#UnitPirce" + o; //单克价格
+                                var FuelFee = "#FuelFee" + o; //燃油费
+                                var FuelFeeRate = "#FuelFeeRate" + o; //燃油费用率
+                                var OtherFee = "#OtherFee" + o; //其他费用
+                                console.log($(MinWeight).val());
+                                priceResult.push({ MinWeight: $(MinWeight).val(),
+                                    MaxWeight: $(MaxWeight).val(),
+                                    Pirce: $(Pirce).val(),
+                                    UnitPirce: $(UnitPirce).val(),
+                                    FuelFee: $(FuelFee).val(),
+                                    FuelFeeRate: $(FuelFeeRate).val(),
+                                    OtherFee: $(OtherFee).val()
+                                });
+                            }
+                        }
+                        return priceResult;
+                    })];
+            case 11:
+                _a[_b] = _c.sent();
+                _c.label = 12;
+            case 12:
+                i++;
+                return [3 /*break*/, 9];
+            case 13:
+                Util_1.createFile(result, "saihe-transport-detail-" + transportId + ".json");
+                // await page.close();
+                // await page1.close();
                 return [2 /*return*/, Promise.resolve("爬取成功！")];
         }
     });

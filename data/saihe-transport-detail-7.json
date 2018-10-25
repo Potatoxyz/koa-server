@@ -1,0 +1,335 @@
+[
+  {
+    "chktsid": "392",
+    "areaName": "云途中欧专线平邮57",
+    "countries": "意大利",
+    "suplid": "3",
+    "transportId": 7,
+    "priceDetail": [
+      {
+        "MinWeight": "1",
+        "MaxWeight": "2000",
+        "Pirce": "0.0000",
+        "UnitPirce": "0.1050",
+        "FuelFee": "0.0000",
+        "FuelFeeRate": "0.0000",
+        "OtherFee": "5.0000"
+      }
+    ]
+  },
+  {
+    "chktsid": "393",
+    "areaName": "云途中欧专线平邮61",
+    "countries": "斯洛文尼亚",
+    "suplid": "3",
+    "transportId": 7,
+    "priceDetail": [
+      {
+        "MinWeight": "1",
+        "MaxWeight": "2000",
+        "Pirce": "0.0000",
+        "UnitPirce": "0.0740",
+        "FuelFee": "0.0000",
+        "FuelFeeRate": "0.0000",
+        "OtherFee": "9.0000"
+      }
+    ]
+  },
+  {
+    "chktsid": "394",
+    "areaName": "云途中欧专线平邮63.5",
+    "countries": "卢森堡",
+    "suplid": "3",
+    "transportId": 7,
+    "priceDetail": [
+      {
+        "MinWeight": "1",
+        "MaxWeight": "2000",
+        "Pirce": "0.0000",
+        "UnitPirce": "0.0780",
+        "FuelFee": "0.0000",
+        "FuelFeeRate": "0.0000",
+        "OtherFee": "16.5000"
+      }
+    ]
+  },
+  {
+    "chktsid": "395",
+    "areaName": "云途中欧专线平邮65",
+    "countries": "比利时,捷克,爱沙尼亚,斯洛伐克",
+    "suplid": "3",
+    "transportId": 7,
+    "priceDetail": [
+      {
+        "MinWeight": "1",
+        "MaxWeight": "2000",
+        "Pirce": "0.0000",
+        "UnitPirce": "0.0780",
+        "FuelFee": "0.0000",
+        "FuelFeeRate": "0.0000",
+        "OtherFee": "9.0000"
+      }
+    ]
+  },
+  {
+    "chktsid": "396",
+    "areaName": "云途中欧专线平邮66",
+    "countries": "英国",
+    "suplid": "3",
+    "transportId": 7,
+    "priceDetail": [
+      {
+        "MinWeight": "1",
+        "MaxWeight": "50",
+        "Pirce": "9.2500",
+        "UnitPirce": "0.0000",
+        "FuelFee": "0.0000",
+        "FuelFeeRate": "0.0000",
+        "OtherFee": "0.0000"
+      },
+      {
+        "MinWeight": "51",
+        "MaxWeight": "2000",
+        "Pirce": "0.0000",
+        "UnitPirce": "0.0750",
+        "FuelFee": "0.0000",
+        "FuelFeeRate": "0.0000",
+        "OtherFee": "5.5000"
+      }
+    ]
+  },
+  {
+    "chktsid": "397",
+    "areaName": "云途中欧专线平邮66.5",
+    "countries": "希腊",
+    "suplid": "3",
+    "transportId": 7,
+    "priceDetail": [
+      {
+        "MinWeight": "1",
+        "MaxWeight": "2000",
+        "Pirce": "0.0000",
+        "UnitPirce": "0.0820",
+        "FuelFee": "0.0000",
+        "FuelFeeRate": "0.0000",
+        "OtherFee": "13.0000"
+      }
+    ]
+  },
+  {
+    "chktsid": "398",
+    "areaName": "云途中欧专线平邮67",
+    "countries": "西班牙",
+    "suplid": "3",
+    "transportId": 7,
+    "priceDetail": [
+      {
+        "MinWeight": "1",
+        "MaxWeight": "2000",
+        "Pirce": "0.0000",
+        "UnitPirce": "0.0850",
+        "FuelFee": "0.0000",
+        "FuelFeeRate": "0.0000",
+        "OtherFee": "2.9000"
+      }
+    ]
+  },
+  {
+    "chktsid": "399",
+    "areaName": "云途中欧专线平邮68-5",
+    "countries": "德国",
+    "suplid": "3",
+    "transportId": 7,
+    "priceDetail": [
+      {
+        "MinWeight": "1",
+        "MaxWeight": "2000",
+        "Pirce": "0.0000",
+        "UnitPirce": "0.0790",
+        "FuelFee": "0.0000",
+        "FuelFeeRate": "0.0000",
+        "OtherFee": "5.2500"
+      }
+    ]
+  },
+  {
+    "chktsid": "400",
+    "areaName": "云途中欧专线平邮68-8",
+    "countries": "匈牙利,波兰,罗马尼亚,拉脱维亚,立陶宛",
+    "suplid": "3",
+    "transportId": 7,
+    "priceDetail": [
+      {
+        "MinWeight": "1",
+        "MaxWeight": "2000",
+        "Pirce": "0.0000",
+        "UnitPirce": "0.0820",
+        "FuelFee": "0.0000",
+        "FuelFeeRate": "0.0000",
+        "OtherFee": "9.0000"
+      }
+    ]
+  },
+  {
+    "chktsid": "401",
+    "areaName": "云途中欧专线平邮68.5",
+    "countries": "丹麦,奥地利",
+    "suplid": "3",
+    "transportId": 7,
+    "priceDetail": [
+      {
+        "MinWeight": "1",
+        "MaxWeight": "2000",
+        "Pirce": "0.0000",
+        "UnitPirce": "0.0820",
+        "FuelFee": "0.0000",
+        "FuelFeeRate": "0.0000",
+        "OtherFee": "15.5000"
+      }
+    ]
+  },
+  {
+    "chktsid": "402",
+    "areaName": "云途中欧专线平邮70.5",
+    "countries": "荷兰",
+    "suplid": "3",
+    "transportId": 7,
+    "priceDetail": [
+      {
+        "MinWeight": "1",
+        "MaxWeight": "2000",
+        "Pirce": "0.0000",
+        "UnitPirce": "0.0860",
+        "FuelFee": "0.0000",
+        "FuelFeeRate": "0.0000",
+        "OtherFee": "8.5000"
+      }
+    ]
+  },
+  {
+    "chktsid": "403",
+    "areaName": "云途中欧专线平邮71-9",
+    "countries": "葡萄牙",
+    "suplid": "3",
+    "transportId": 7,
+    "priceDetail": [
+      {
+        "MinWeight": "1",
+        "MaxWeight": "2000",
+        "Pirce": "0.0000",
+        "UnitPirce": "0.0870",
+        "FuelFee": "0.0000",
+        "FuelFeeRate": "0.0000",
+        "OtherFee": "10.0000"
+      }
+    ]
+  },
+  {
+    "chktsid": "404",
+    "areaName": "云途中欧专线平邮71-14",
+    "countries": "瑞典",
+    "suplid": "3",
+    "transportId": 7,
+    "priceDetail": [
+      {
+        "MinWeight": "1",
+        "MaxWeight": "2000",
+        "Pirce": "0.0000",
+        "UnitPirce": "0.1000",
+        "FuelFee": "0.0000",
+        "FuelFeeRate": "0.0000",
+        "OtherFee": "5.0000"
+      }
+    ]
+  },
+  {
+    "chktsid": "405",
+    "areaName": "云途中欧专线平邮73",
+    "countries": "爱尔兰",
+    "suplid": "3",
+    "transportId": 7,
+    "priceDetail": [
+      {
+        "MinWeight": "1",
+        "MaxWeight": "2000",
+        "Pirce": "0.0000",
+        "UnitPirce": "0.0885",
+        "FuelFee": "0.0000",
+        "FuelFeeRate": "0.0000",
+        "OtherFee": "16.5000"
+      }
+    ]
+  },
+  {
+    "chktsid": "407",
+    "areaName": "云途中欧专线平邮75-8",
+    "countries": "芬兰",
+    "suplid": "3",
+    "transportId": 7,
+    "priceDetail": [
+      {
+        "MinWeight": "1",
+        "MaxWeight": "2000",
+        "Pirce": "0.0000",
+        "UnitPirce": "0.0900",
+        "FuelFee": "0.0000",
+        "FuelFeeRate": "0.0000",
+        "OtherFee": "9.0000"
+      }
+    ]
+  },
+  {
+    "chktsid": "408",
+    "areaName": "云途中欧专线平邮79",
+    "countries": "塞浦路斯",
+    "suplid": "3",
+    "transportId": 7,
+    "priceDetail": [
+      {
+        "MinWeight": "1",
+        "MaxWeight": "2000",
+        "Pirce": "0.0000",
+        "UnitPirce": "0.0940",
+        "FuelFee": "0.0000",
+        "FuelFeeRate": "0.0000",
+        "OtherFee": "9.0000"
+      }
+    ]
+  },
+  {
+    "chktsid": "409",
+    "areaName": "云途中欧专线平邮86.5",
+    "countries": "保加利亚,克罗地亚,马耳他",
+    "suplid": "3",
+    "transportId": 7,
+    "priceDetail": [
+      {
+        "MinWeight": "1",
+        "MaxWeight": "2000",
+        "Pirce": "0.0000",
+        "UnitPirce": "0.1020",
+        "FuelFee": "0.0000",
+        "FuelFeeRate": "0.0000",
+        "OtherFee": "9.0000"
+      }
+    ]
+  },
+  {
+    "chktsid": "1274",
+    "areaName": "云途中欧专线平邮法国",
+    "countries": "法国",
+    "suplid": "3",
+    "transportId": 7,
+    "priceDetail": [
+      {
+        "MinWeight": "1",
+        "MaxWeight": "2000",
+        "Pirce": "0.0000",
+        "UnitPirce": "0.0716",
+        "FuelFee": "0.0000",
+        "FuelFeeRate": "0.0000",
+        "OtherFee": "9.1800"
+      }
+    ]
+  }
+]

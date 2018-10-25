@@ -4,5 +4,5 @@ var viewPort={
     width:1366,
     height:768
 };
-var saiheCookie='ASP.NET_SessionId=blvosi5fz3mln00quyfe3pyf; ValidCode=P2anrmnCW78%3d; irobotbox_cookie_time=2018-10-23+18%3a05%3a10; irobotbox_session_id=GBN37ikyo6gy3SOwnyQf6Q%3d%3d; irobotbox_cookie_language=zh_CN';
+var saiheCookie='irobotbox_cookie_time=2018-10-24+10%3a47%3a02; irobotbox_session_id=GBN37ikyo6gy3SOwnyQf6Q%3d%3d; irobotbox_cookie_language=zh_CN; ASP.NET_SessionId=d03ar2kiprtk5z0bpbzectcu; ValidCode=o6ExIaLprqY%3d';
 export {exePath,userAgent,viewPort,saiheCookie}

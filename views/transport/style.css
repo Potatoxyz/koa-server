@@ -1,0 +1,15 @@
+.container header {
+  margin-bottom: 30px; }
+
+.container nav {
+  position: relative; }
+
+.container .pagination {
+  justify-content: center; }
+
+.container .pageInfo {
+  display: flex;
+  position: absolute;
+  top: 0; }
+  .container .pageInfo select.form-control {
+    width: auto; }

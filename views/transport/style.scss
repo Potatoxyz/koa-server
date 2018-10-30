@@ -1,0 +1,19 @@
+.container{
+  header{
+    margin-bottom: 30px;
+  }
+  nav{
+    position: relative;
+  }
+  .pagination{
+    justify-content: center;
+  }
+  .pageInfo{
+    display: flex;
+    position: absolute;
+    top:0;
+    select.form-control{
+      width: auto;
+    }
+  }
+}

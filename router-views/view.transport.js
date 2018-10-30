@@ -1,7 +1,7 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 var Router = require("koa-router");
-var transportDatas = require('../data/saihe-transport.json');
+var transportDatas = [];
 var router = new Router();
 router.get('/', function (ctx, next) {
     ctx.render('transport/transport.html', {
@@ -9,4 +9,4 @@ router.get('/', function (ctx, next) {
         transportDatas: transportDatas
     });
 });
-exports.default = router;
+exports["default"] = router;

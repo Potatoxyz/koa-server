@@ -14,8 +14,8 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     function step(op) {
         if (f) throw new TypeError("Generator is already executing.");
         while (_) try {
-            if (f = 1, y && (t = y[op[0] & 2 ? "return" : op[0] ? "throw" : "next"]) && !(t = t.call(y, op[1])).done) return t;
-            if (y = 0, t) op = [0, t.value];
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
             switch (op[0]) {
                 case 0: case 1: t = op; break;
                 case 4: _.label++; return { value: op[1], done: false };
@@ -35,24 +35,29 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 var _this = this;
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 var Router = require("koa-router");
 var router = new Router();
 var koaBody = require("koa-body");
-var saihe_logistic_detail_1 = require("../puppeteer/saihe-logistic-detail");
-router.post('/', koaBody(), function (ctx, next) { return __awaiter(_this, void 0, void 0, function () {
-    var transportId, _a;
-    return __generator(this, function (_b) {
-        switch (_b.label) {
+var Path = require("path");
+var filePath = Path.resolve(__dirname, '../../data/saihe-transport.json');
+var fuc_getTransportWays_1 = require("./fuc.getTransportWays");
+router.get('/', koaBody(), function (ctx, next) { return __awaiter(_this, void 0, void 0, function () {
+    var _a, pageSize, pageIndex, _b;
+    return __generator(this, function (_c) {
+        switch (_c.label) {
             case 0:
-                console.log(ctx.request.body);
-                transportId = +ctx.request.body.transportId || null;
-                _a = ctx;
-                return [4 /*yield*/, saihe_logistic_detail_1.default(transportId)];
+                _a = ctx.request.query, pageSize = _a.pageSize, pageIndex = _a.pageIndex;
+                pageSize = +pageSize || 5;
+                pageIndex = +pageIndex || 1;
+                console.log(pageSize);
+                console.log(pageIndex);
+                _b = ctx;
+                return [4 /*yield*/, fuc_getTransportWays_1["default"](filePath, pageSize, pageIndex)];
             case 1:
-                _a.body = _b.sent();
+                _b.body = _c.sent();
                 return [2 /*return*/];
         }
     });
 }); });
-exports.default = router;
+exports["default"] = router;

@@ -3,11 +3,43 @@
 {{block 'title'}}{{title}}{{/block}}
 
 {{block 'head'}}
-
+<link rel="stylesheet" href="/transport/style.css">
 {{/block}}
 
 {{block 'content'}}
 <div class="container">
+    <header>
+        <h3>赛盒物流列表</h3>
+    </header>
+    <nav aria-label="navigation">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">上一页</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">下一页</span>
+                </a>
+            </li>
+        </ul>
+        <div class="pageInfo">
+            <span class="page-link">选择分页</span>
+            <select name="" id="pageSize" class="form-control">
+                <option value="1">1</option>
+                <option value="5">5</option>
+                <option value="20">20</option>
+                <option value="50">50</option>
+            </select>
+            <span class="page-link">共{{transportDatas.length}}条</span>
+        </div>
+    </nav>
     <table class="table table-bordered table-stripped">
         <thead>
         <tr>
@@ -35,6 +67,12 @@
 </div>
 <script>
     $(function () {
+        //获取物流列表
+//        var getTransportWays=function () {
+//            $.ajax('/views/transport?pageSize=5&&pageIndex=1')
+//        }
+        var pageSize=5;
+        var pageSizeSelect=$('#pageSize');
         var doSync=function (e) {
             var transportId=$(e.currentTarget).parent("td").siblings('td:nth-of-type(2)').text();
             console.log(transportId)
@@ -51,7 +89,12 @@
                 }
             )
         };
+        var pageSizeChange=function (e) {
+            pageSize=$(e.currentTarget).val();
+            console.log(pageSize)
+        };
         $('.btn').on('click',doSync);
+        $(pageSizeSelect).on('change',pageSizeChange);
     })
 </script>
 {{/block}}

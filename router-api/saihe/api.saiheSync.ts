@@ -1,7 +1,7 @@
 import * as Router from 'koa-router';
 var router=new Router();
 import * as koaBody from 'koa-body';
-import transportDetail from "../puppeteer/saihe-logistic-detail";
+import transportDetail from "../../puppeteer/saihe-logistic-detail";
 
 router.post('/',koaBody(),async (ctx,next)=>{
     console.log(ctx.request.body);

@@ -14,8 +14,8 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     function step(op) {
         if (f) throw new TypeError("Generator is already executing.");
         while (_) try {
-            if (f = 1, y && (t = y[op[0] & 2 ? "return" : op[0] ? "throw" : "next"]) && !(t = t.call(y, op[1])).done) return t;
-            if (y = 0, t) op = [0, t.value];
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
             switch (op[0]) {
                 case 0: case 1: t = op; break;
                 case 4: _.label++; return { value: op[1], done: false };
@@ -34,26 +34,29 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
-Object.defineProperty(exports, "__esModule", { value: true });
-function addCookies(cookies_str, page, domain) {
-    return __awaiter(this, void 0, void 0, function () {
-        var cookies;
-        return __generator(this, function (_a) {
-            switch (_a.label) {
-                case 0:
-                    cookies = cookies_str.split(';').map(function (pair) {
-                        var name = pair.trim().slice(0, pair.trim().indexOf('='));
-                        var value = pair.trim().slice(pair.trim().indexOf('=') + 1);
-                        return { name: name, value: value, domain: domain };
+var _this = this;
+exports.__esModule = true;
+var fs = require('fs');
+exports["default"] = (function (filePath, pageSize, pageIndex) { return __awaiter(_this, void 0, void 0, function () {
+    return __generator(this, function (_a) {
+        switch (_a.label) {
+            case 0: return [4 /*yield*/, new Promise(function (resolve, reject) {
+                    fs.readFile(filePath, function (err, data) {
+                        if (err) {
+                            console.log(err);
+                            reject('查询出错');
+                            return;
+                        }
+                        var dataSource = JSON.parse(data);
+                        // let len = dataSource.length;
+                        // let totalPage = Math.floor(len / pageSize);
+                        var startIndex = pageSize * pageIndex;
+                        resolve(dataSource.slice(startIndex, startIndex + pageSize));
                     });
-                    return [4 /*yield*/, Promise.all(cookies.map(function (pair) {
-                            return page.setCookie(pair);
-                        }))];
-                case 1:
-                    _a.sent();
-                    return [2 /*return*/];
-            }
-        });
+                })];
+            case 1:
+                _a.sent();
+                return [2 /*return*/];
+        }
     });
-}
-exports.addCookies = addCookies;
+}); });

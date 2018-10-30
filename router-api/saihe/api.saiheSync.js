@@ -34,26 +34,25 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
+var _this = this;
 Object.defineProperty(exports, "__esModule", { value: true });
-function addCookies(cookies_str, page, domain) {
-    return __awaiter(this, void 0, void 0, function () {
-        var cookies;
-        return __generator(this, function (_a) {
-            switch (_a.label) {
-                case 0:
-                    cookies = cookies_str.split(';').map(function (pair) {
-                        var name = pair.trim().slice(0, pair.trim().indexOf('='));
-                        var value = pair.trim().slice(pair.trim().indexOf('=') + 1);
-                        return { name: name, value: value, domain: domain };
-                    });
-                    return [4 /*yield*/, Promise.all(cookies.map(function (pair) {
-                            return page.setCookie(pair);
-                        }))];
-                case 1:
-                    _a.sent();
-                    return [2 /*return*/];
-            }
-        });
+var Router = require("koa-router");
+var router = new Router();
+var koaBody = require("koa-body");
+var saihe_logistic_detail_1 = require("../../puppeteer/saihe-logistic-detail");
+router.post('/', koaBody(), function (ctx, next) { return __awaiter(_this, void 0, void 0, function () {
+    var transportId, _a;
+    return __generator(this, function (_b) {
+        switch (_b.label) {
+            case 0:
+                console.log(ctx.request.body);
+                transportId = +ctx.request.body.transportId || null;
+                _a = ctx;
+                return [4 /*yield*/, saihe_logistic_detail_1.default(transportId)];
+            case 1:
+                _a.body = _b.sent();
+                return [2 /*return*/];
+        }
     });
-}
-exports.addCookies = addCookies;
+}); });
+exports.default = router;

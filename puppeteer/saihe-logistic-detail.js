@@ -14,8 +14,8 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     function step(op) {
         if (f) throw new TypeError("Generator is already executing.");
         while (_) try {
-            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
-            if (y = 0, t) op = [op[0] & 2, t.value];
+            if (f = 1, y && (t = y[op[0] & 2 ? "return" : op[0] ? "throw" : "next"]) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [0, t.value];
             switch (op[0]) {
                 case 0: case 1: t = op; break;
                 case 4: _.label++; return { value: op[1], done: false };
@@ -35,7 +35,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 var _this = this;
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var UPuppeteer_1 = require("../Util/UPuppeteer");
 var puppeteer = require('puppeteer-core');
 var static_1 = require("../static");
@@ -70,7 +70,7 @@ var transportDetail = function (transportId) { return __awaiter(_this, void 0, v
                 return [4 /*yield*/, UPuppeteer_1.addCookies(static_1.saiheCookie, page, '.irobotbox.com')];
             case 5:
                 _c.sent();
-                return [4 /*yield*/, page.goto(targetPath1 + transportId)["catch"](function (e) {
+                return [4 /*yield*/, page.goto(targetPath1 + transportId).catch(function (e) {
                         page.close();
                         console.log(e);
                     })];
@@ -97,7 +97,8 @@ var transportDetail = function (transportId) { return __awaiter(_this, void 0, v
             case 9:
                 if (!(i < result.length)) return [3 /*break*/, 13];
                 result[i]['transportId'] = transportId;
-                return [4 /*yield*/, page1.goto(targetPath2 + "?id=" + result[i].chktsid + "&suplid=" + result[i].suplid + "&transid=" + transportId)["catch"](function (e) {
+                return [4 /*yield*/, page1.goto(targetPath2 + "?id=" + result[i].chktsid + "&suplid=" + result[i].suplid + "&transid=" + transportId)
+                        .catch(function (e) {
                         page1.close();
                         console.log(e);
                     })];
@@ -145,4 +146,4 @@ var transportDetail = function (transportId) { return __awaiter(_this, void 0, v
         }
     });
 }); };
-exports["default"] = transportDetail;
+exports.default = transportDetail;
